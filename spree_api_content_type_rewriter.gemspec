@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.author    = 'Masahiro Saito'
   s.email     = 'camelmasa@gmail.com'
-  s.homepage  = 'https://github.com/camelmasa/spree_api_content_type_rewriter'
+  s.homepage  = "https://github.com/camelmasa/#{s.name}"
 
   s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
