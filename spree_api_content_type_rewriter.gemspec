@@ -2,21 +2,22 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_api_content_type_rewriter'
-  s.version     = '1.1.3'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.version     = '0.0.1'
+  s.summary     = 'Spree API rewirite response header Content-Type.'
+  s.description = 'Spree API rewirite response header Content-Type.'
   s.required_ruby_version = '>= 1.8.7'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
-  # s.homepage  = 'http://www.spreecommerce.com'
+  s.author    = 'Masahiro Saito'
+  s.email     = 'camelmasa@gmail.com'
+  s.homepage  = 'https://github.com/camelmasa/spree_api_content_type_rewriter'
 
-  #s.files       = `git ls-files`.split("\n")
+  s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 1.1.3'
+  s.add_dependency 'spree_core'
+  s.add_dependency 'spree_api'
 
   s.add_development_dependency 'capybara', '1.0.1'
   s.add_development_dependency 'factory_girl', '~> 2.6.4'
