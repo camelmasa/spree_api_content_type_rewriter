@@ -1,21 +1,13 @@
-SpreeApiContentTypeRewriter
+Spree Api ContentTypeRewriter
 ===========================
 
-Introduction goes here.
+Spree's Rest API rewrite http response Content-type header.
+It's "application/json".
 
-
-Example
-=======
-
-Example goes here.
 
 Testing
 -------
 
-Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
+Coding now.
 
-    $ bundle
-    $ bundle exec rake test_app
-    $ bundle exec rspec spec
-
-Copyright (c) 2012 [name of extension creator], released under the New BSD License
+Copyright (c) 2012 Masahiro Saito, released under the New BSD License
