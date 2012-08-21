@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_api_content_type_rewriter'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.summary     = 'Spree API rewirite response header Content-Type.'
   s.description = 'Spree API rewirite response header Content-Type.'
   s.required_ruby_version = '>= 1.8.7'

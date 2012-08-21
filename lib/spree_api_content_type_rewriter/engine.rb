@@ -4,7 +4,7 @@ module SpreeApiContentTypeRewriter
     isolate_namespace Spree
     engine_name 'spree_api_content_type_rewriter'
 
-    config.middleware.use "SpreeApiContentTypeRewriter::Middleware::ContentTypeRewriter"
+    Spree::Core::Engine.middleware.use "SpreeApiContentTypeRewriter::Middleware::ContentTypeRewriter"
     config.autoload_paths += %W(#{config.root}/lib)
 
     # use rspec for tests
