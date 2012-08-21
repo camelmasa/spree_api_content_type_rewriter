@@ -7,8 +7,7 @@ module SpreeApiContentTypeRewriter
 
       def call(env)
         status, headers, response = @app.call(env)
-        #headers['Content-Type'] = 'application/json' if env['action_dispatch.request.path_parameters'][:format] == 'json'
-        headers['Content-Type'] = 'application/json'
+        headers['Content-Type'] = 'application/json' if env['action_dispatch.request.path_parameters'][:format] == 'json'
         [status, headers, response]
       end
     end
